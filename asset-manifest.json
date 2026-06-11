@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/saveplates/static/css/main.56872300.css",
+    "main.js": "/saveplates/static/js/main.d7eddc17.js",
+    "index.html": "/saveplates/index.html",
+    "main.56872300.css.map": "/saveplates/static/css/main.56872300.css.map",
+    "main.d7eddc17.js.map": "/saveplates/static/js/main.d7eddc17.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56872300.css",
+    "static/js/main.d7eddc17.js"
+  ]
+}
