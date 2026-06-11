@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 
-const API_URL = 'http://localhost:5001/api/donations';
+const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5001/api/donations';
 
 const DONOR_TYPES = ['Select venue type...', 'Wedding Hall', 'Hostel', 'Hotel', 'Bakery'];
 

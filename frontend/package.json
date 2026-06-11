@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "ResQFood frontend - food donation platform UI",
+  "homepage": "https://Tr2418.github.io/saveplates",
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -10,10 +11,23 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
-    "production": [">0.2%", "not dead", "not op_mini all"],
-    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
